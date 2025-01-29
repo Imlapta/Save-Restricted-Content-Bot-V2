@@ -6,10 +6,8 @@ opencv-python-headless
 requests
 motor
 pytz
-flask
 telethon
 aiojobs
-werkzeug==2.2.2
 PyPDF2
 reportlab
 PyMuPDF
@@ -17,5 +15,5 @@ PyMuPDF
 Flask==1.1.2
 gunicorn==20.1.0
 Jinja2==3.0.3
-werkzeug==2.0.2
+werkzeug==2.2.2
 itsdangerous==2.0.1
