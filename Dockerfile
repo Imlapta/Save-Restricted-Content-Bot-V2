@@ -9,4 +9,3 @@ RUN pip3 install wheel
 RUN pip3 install --no-cache-dir -U -r requirements.txt
 WORKDIR /app
 COPY . .
-gunicorn app:app & python3 main.py
