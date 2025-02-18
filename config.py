@@ -3,12 +3,12 @@
 
 from os import getenv
 
-API_ID = int(getenv("API_ID", "29773843"))
-API_HASH = getenv("API_HASH", "8b40e91c29a00fecb905d6eb6aee2b3b")
-BOT_TOKEN = getenv("BOT_TOKEN", "7807390579:AAH3ZaTicBVTlV1mjMiioHybIFvKd10We-c")
-OWNER_ID = list(map(int, getenv("OWNER_ID", "7766420864").split()))
-MONGO_DB = getenv("MONGO_DB", "mongodb+srv://ganeshchouhan7877:rdX15xt2odwLpXVEdj@cluster0.8r5un.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-LOG_GROUP = getenv("LOG_GROUP", "-4602402224")
-CHANNEL_ID = int(getenv("CHANNEL_ID", "-1002332500468"))
+API_ID = int(getenv("API_ID", "3737117"))
+API_HASH = getenv("API_HASH", "f466ca6ff400954d192ce0992ddf8b5d")
+BOT_TOKEN = getenv("BOT_TOKEN", "7875472542:AAFGaPCwwvgzV-_11OaeQHVRWDLaK7QStOc")
+OWNER_ID = list(map(int, getenv("OWNER_ID", "1110590703").split()))
+MONGO_DB = getenv("MONGO_DB", "mongodb+srv://rrahuldhaker:7F6evbaKu8m7Ybr5@cluster0.w5kvs.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+LOG_GROUP = getenv("LOG_GROUP", "")
+CHANNEL_ID = int(getenv("CHANNEL_ID", ""))
 FREEMIUM_LIMIT = int(getenv("FREEMIUM_LIMIT", "500"))
 PREMIUM_LIMIT = int(getenv("PREMIUM_LIMIT", "500"))
